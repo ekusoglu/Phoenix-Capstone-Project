@@ -143,7 +143,7 @@ public class ComponentsPageObject extends Base {
 	@FindBy(xpath= "//form[@id='form-review']/div[2]/text()")
 	private WebElement warningText;
 	
-	
+	// aaded from eclipse
 	// i add something from git hub
 	
 }
