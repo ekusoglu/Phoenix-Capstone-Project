@@ -143,4 +143,6 @@ public class ComponentsPageObject extends Base {
 	@FindBy(xpath= "//form[@id='form-review']/div[2]/text()")
 	private WebElement warningText;
 	
+	
+	//another chenages
 }
