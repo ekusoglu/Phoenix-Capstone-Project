@@ -144,7 +144,6 @@ public class ComponentsPageObject extends Base {
 	private WebElement warningText;
 	
 	
-	//another chenages
-	// i just add something
+	// i add something from git hub
 	
 }
