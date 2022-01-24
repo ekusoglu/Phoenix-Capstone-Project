@@ -145,5 +145,5 @@ public class ComponentsPageObject extends Base {
 	
 	// aaded from eclipse
 	// i add something from git hub
-	
+	// i add anather one
 }
