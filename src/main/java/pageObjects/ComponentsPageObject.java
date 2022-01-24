@@ -145,4 +145,6 @@ public class ComponentsPageObject extends Base {
 	
 	
 	//another chenages
+	// i just add something
+	
 }
