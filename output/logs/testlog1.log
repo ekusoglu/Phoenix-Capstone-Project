@@ -1,0 +1,91 @@
+2022-01-31 13:14:12,251 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2022-01-31 13:14:15,193 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:14:16,302 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:14:17,256 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:14:19,482 [main] INFO logger_File - User clicking on MacBook
+2022-01-31 13:14:20,192 [main] INFO logger_File - Adding choesn item to the cart
+2022-01-31 13:14:22,451 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:14:23,126 [main] INFO logger_File - Validating the cart
+2022-01-31 13:14:23,343 [main] INFO logger_File - User clicking on the cart icon
+2022-01-31 13:14:23,608 [main] INFO logger_File - User clicking on red x button
+2022-01-31 13:14:26,884 [main] INFO logger_File - User validating the Cart
+2022-01-31 13:14:27,393 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart PASSED
+2022-01-31 13:15:57,662 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2022-01-31 13:16:00,650 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:16:01,605 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:16:02,368 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:16:04,378 [main] INFO logger_File - User clicking on MacBook
+2022-01-31 13:16:06,413 [main] INFO logger_File - Adding choesn item to the cart
+2022-01-31 13:16:08,635 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:16:09,190 [main] INFO logger_File - Validating the cart
+2022-01-31 13:16:09,416 [main] INFO logger_File - User clicking on the cart icon
+2022-01-31 13:16:09,639 [main] INFO logger_File - User clicking on red x button
+2022-01-31 13:16:13,148 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart FAILED
+2022-01-31 13:30:07,914 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2022-01-31 13:30:10,664 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:30:11,201 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:30:12,084 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:30:14,128 [main] INFO logger_File - User clicking on MacBook
+2022-01-31 13:30:14,778 [main] INFO logger_File - Adding choesn item to the cart
+2022-01-31 13:30:16,993 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:30:17,601 [main] INFO logger_File - Validating the cart
+2022-01-31 13:30:17,820 [main] INFO logger_File - User clicking on the cart icon
+2022-01-31 13:30:18,039 [main] INFO logger_File - User clicking on red x button
+2022-01-31 13:30:21,640 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart FAILED
+2022-01-31 13:30:21,790 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:30:24,242 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:30:24,835 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:30:25,655 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:30:26,162 [main] INFO logger_File - Scenario Product Comparison UNDEFINED
+2022-01-31 13:30:26,188 [main] INFO logger_File - Scenario Adding an item to Wish list Started
+2022-01-31 13:30:28,497 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:30:28,971 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:30:29,682 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:30:30,084 [main] INFO logger_File - Scenario Adding an item to Wish list UNDEFINED
+2022-01-31 13:30:30,099 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 Started
+2022-01-31 13:30:32,902 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:30:33,389 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:30:34,080 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:30:34,496 [main] INFO logger_File - Scenario Validate the price of MacBook Pro is 2000 UNDEFINED
+2022-01-31 13:30:54,138 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2022-01-31 13:30:57,343 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:30:58,102 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:30:58,884 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:30:59,572 [main] INFO logger_File - User clicking on MacBook
+2022-01-31 13:31:03,772 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:31:05,899 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:31:06,529 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:31:07,277 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:31:41,916 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:31:44,685 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:31:45,291 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:31:46,242 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:31:46,665 [main] INFO logger_File - Scenario Product Comparison UNDEFINED
+2022-01-31 13:47:09,311 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:47:12,321 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:47:12,957 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:47:13,842 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:47:14,766 [main] INFO logger_File - Scenario Product Comparison FAILED
+2022-01-31 13:52:12,757 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:52:15,860 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:52:16,434 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:52:17,319 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:52:24,123 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:52:24,777 [main] INFO logger_File - Scenario Product Comparison FAILED
+2022-01-31 13:55:28,586 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:55:31,538 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:55:32,061 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:55:32,955 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:55:39,839 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:55:40,526 [main] INFO logger_File - Scenario Product Comparison PASSED
+2022-01-31 13:56:13,261 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:56:15,865 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:56:16,509 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:56:17,558 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:56:18,497 [main] INFO logger_File - Scenario Product Comparison FAILED
+2022-01-31 13:56:44,258 [main] INFO logger_File - Scenario Product Comparison Started
+2022-01-31 13:56:47,428 [main] INFO logger_File - User is on Retail Page
+2022-01-31 13:56:47,996 [main] INFO logger_File - user is clicking on Laptop&NoteBook tab
+2022-01-31 13:56:48,916 [main] INFO logger_File - User clicking on Show All Laptop option
+2022-01-31 13:56:55,714 [main] INFO logger_File - Validating the Success Message
+2022-01-31 13:56:56,441 [main] INFO logger_File - Scenario Product Comparison PASSED

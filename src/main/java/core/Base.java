@@ -21,12 +21,13 @@ public class Base {
 	
 	public static WebDriver driver;
 	public static Properties properties;
-	//public static Logger logger;
+	public static Logger logger;
 	
 	private String propertiesPath = ".\\src\\test\\resources\\input\\properties.properties";
-	//private String log4jPath = ".\\src\\test\\resources\\input\\log4j.properties";
+	private String log4jPath = ".\\src\\test\\resources\\input\\log4j.properties";
 	
 
+	@SuppressWarnings("static-access")
 	public Base() {
 		
 		try {
@@ -42,8 +43,8 @@ public class Base {
 			e.printStackTrace();
 		}
 		
-	//	logger = logger.getLogger("logger_File");
-		//PropertyConfigurator.configure(log4jPath);
+		logger = logger.getLogger("logger_File");
+		PropertyConfigurator.configure(log4jPath);
 	}
 	
 	public static String getUrl() {
@@ -103,8 +104,12 @@ public class Base {
 				
 			
 		}
-		
 		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.manage().deleteAllCookies();
+	
 		
 	}
 }

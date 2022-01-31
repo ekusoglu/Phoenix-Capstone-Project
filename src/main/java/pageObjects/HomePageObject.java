@@ -109,6 +109,8 @@ public class HomePageObject extends Base {
 	@FindBy(linkText = "Newsletter")
 	private WebElement newsletter;
 	
+	@FindBy(xpath ="//h3[contains(text(),'Featured')]")
+	private WebElement homeFeatured;
 	
 	
 	
