@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.assertj.core.api.SoftAssertions;
@@ -9,11 +10,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import core.Base;
+import utilities.Utility;
 
 public class LaptopsNoteBooksPageObject extends Base {
 
+	
+	WebDriverWait wait = new WebDriverWait(driver,5);
+	
 	public LaptopsNoteBooksPageObject() {
 
 		PageFactory.initElements(driver, this);
@@ -42,7 +50,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 
 	@FindBy(xpath = "//div[@id='content']")
 	private WebElement comparisonChart;
-	
+
 	@FindBy(css = "#list-view")
 	private WebElement listView;
 
@@ -91,7 +99,16 @@ public class LaptopsNoteBooksPageObject extends Base {
 	@FindBy(xpath = "//option[contains(text(),'100')]")
 	private WebElement showby_100;
 
-	@FindBy(xpath = "//div[@class='caption']/h4")
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldPrice;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldNew;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement priceTax;
+	
+	@FindBy(xpath = "//div[@class='product-thumb']")
 	private List<WebElement> products;
 
 	@FindBy(xpath = "//span[contains(text(),'Add to Cart')]")
@@ -99,7 +116,13 @@ public class LaptopsNoteBooksPageObject extends Base {
 
 	@FindBy(xpath = "//i[@class='fa fa-exchange']")
 	private List<WebElement> compareIcon;
-	
+
+	@FindBy(xpath = "//div[@class='product-thumb']//i[@class='fa fa-heart']")
+	private List<WebElement> heartIcon;
+
+	@FindBy(xpath = "//div[@id='product-category']/div[1]/div[1]/div[4]/div[5]//button[2]")
+	private WebElement heartIconSony;
+
 	@FindBy(xpath = "//h3[contains(text(),'Refine Search')]")
 	private WebElement refineSearch;
 
@@ -123,6 +146,9 @@ public class LaptopsNoteBooksPageObject extends Base {
 
 	@FindBy(xpath = "//img[@title='Sony VAIO']")
 	private WebElement sonyImage;
+
+	@FindBy(xpath = "//ul[@class='list-unstyled']/li/h2")
+	private WebElement macProPrice;
 
 	@FindBy(xpath = "//input[@id ='input-option225']")
 	private WebElement hpTypeDeliveryDate;
@@ -148,6 +174,9 @@ public class LaptopsNoteBooksPageObject extends Base {
 	@FindBy(xpath = "//form[@id='form-review']/div[2]/text()")
 	private WebElement warningText;
 
+	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+	private WebElement loginMessage;
+
 	@FindBy(xpath = "//span[@id='cart-total']")
 	private WebElement cartIcon;
 
@@ -168,12 +197,10 @@ public class LaptopsNoteBooksPageObject extends Base {
 	}
 
 	public void getCartIconMessage(String cart) {
-
+		Utility.highlightelementRedBorder(cartIcon);
 		String trimmedMessage = cartIcon.getText().replace(" - ", "-");
-		SoftAssertions softAssert = new SoftAssertions();
-		softAssert.assertThat(cart.equals(trimmedMessage));
-		softAssert.assertAll();
-
+		
+		Assert.assertEquals(cart, trimmedMessage);
 	}
 
 	public void getCartIcon() {
@@ -185,29 +212,64 @@ public class LaptopsNoteBooksPageObject extends Base {
 	}
 
 	public void getCartIconMessageEmpty(String cartEmpty) {
-
+		
+		wait.until(ExpectedConditions.visibilityOf(cartIcon));
+		Utility.highlightelementRedBorder(cartIcon);
 		String trimmedMessage1 = cartIcon.getText().replace(" - ", "-");
-		Assert.assertEquals(cartEmpty, trimmedMessage1);
+		if(trimmedMessage1.contains(cartEmpty)) {
+			Assert.assertTrue(true);
+		}
 	}
 
 	public void getCompareIcon(String comparedItems) {
-		
+
+	
 		List<WebElement> products = driver.findElements(By.tagName("h4"));
 		for (int i = 0; i < products.size(); i++) {
 			String name = products.get(i).getText();
 			if (name.contains(comparedItems)) {
+
 				compareIcon.get(i).click();
 				break;
 			}
 		}
+
 	}
-	
+
 	public void getCompareProducts() {
+		
+		Utility.highlightelementRedBorder(compareProducts);
 		compareProducts.click();
 	}
-	
+
 	public void getComparisonChart() {
-		
-		Assert.assertEquals(true,comparisonChart.isDisplayed());
+
+		Assert.assertEquals(true, comparisonChart.isDisplayed());
 	}
+
+	public void getHeartIconSony() {
+		heartIconSony.click();
+	}
+
+	public void getLoginMessage(String message) {
+
+		String[] string1 = loginMessage.getText().split("\n");
+
+		String string2 = string1[0].trim();
+
+		Assert.assertEquals(message, string2);
+	}
+
+	public void getMacProImage() throws IOException {
+
+		macProImage.click();
+	}
+
+	public void getMacProPrice(String priceTag) throws IOException {
+
+		Utility.highlightelementBackground(macProPrice);
+		String price = macProPrice.getText();
+		Assert.assertEquals(priceTag, price);
+	}
+
 }

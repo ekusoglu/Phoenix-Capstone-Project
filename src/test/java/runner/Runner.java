@@ -12,7 +12,7 @@ import utilities.CucumberReportingConfig;
 		
 		features = "classpath:features",
 		glue = "stepDefinitions",
-		tags = "@Compare",
+		tags = "@laptopsNoteBooks",
 		monochrome = true,
 		plugin = {
 				"pretty",

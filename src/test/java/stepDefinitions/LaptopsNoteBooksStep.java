@@ -63,11 +63,11 @@ public class LaptopsNoteBooksStep extends Base {
 	}
 
 	@Then("user click on red X button to remove the item from cart")
-	public void user_click_on_red_x_button_to_remove_the_item_from_cart() throws InterruptedException, IOException {
+	public void user_click_on_red_x_button_to_remove_the_item_from_cart() throws  IOException {
 		logger.info("User clicking on red x button");
 		Utility.takeScreenshot("Removing Item");
 		laptops.getCartIconRemoveButton();
-		Thread.sleep(3000);
+		
 	}
 
 	@Then("item should be removed and cart should show {string}")
@@ -77,21 +77,59 @@ public class LaptopsNoteBooksStep extends Base {
 		logger.info("User validating the Cart");
 		Utility.takeScreenshot("Validating Cart");
 	}
-	
+
 	@And("User click on product comparison icon on {string}")
-	public void user_click_on_product_comparison_icon_on(String comparedItems) throws InterruptedException {
-	    laptops.getCompareIcon(comparedItems);
-	    Thread.sleep(2000);
-	}
+	public void user_click_on_product_comparison_icon_on(String comparedItems)
+			throws InterruptedException, IOException {
+		logger.info("User clicks on Camparison icon");
+		laptops.getCompareIcon(comparedItems);
 	
+		Utility.takeScreenshot("Comparision Icon");
+	}
+
 	@And("User click on Product comparison link")
-	public void user_click_on_product_comparison_link() {
-	   laptops.getCompareProducts();
+	public void user_click_on_product_comparison_link() throws IOException {
+		logger.info("User clicks on the Comparision link");
+		laptops.getCompareProducts();
+		Utility.takeScreenshot("Camparion Link");
 	}
-	
+
 	@Then("User should see Product Comparison Chart")
-	public void user_should_see_product_comparison_chart() {
-	   
+	public void user_should_see_product_comparison_chart() throws IOException {
+		logger.info("Validating the Comparision chart");
 		laptops.getComparisonChart();
+		Utility.takeScreenshot("Camparision Chart");
 	}
+
+	@When("User click on heart icon to add Sony VaIO laptop to wish list")
+	public void user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list() throws IOException {
+		logger.info("User clickd on the wishlist button on Sony VaIO");
+		laptops.getHeartIconSony();
+		Utility.takeScreenshot("Sony WishList");
+	}
+
+	@Then("User should get a message {string}")
+	public void user_should_get_a_message(String message) throws IOException {
+		logger.info("Validating the Alert Message");
+		laptops.getLoginMessage(message);
+		Utility.takeScreenshot("Validiate WishList Message");
+
+	}
+
+	@When("User click on {string} item")
+	public void user_click_on_item(String item) throws IOException {
+		logger.info("User click on the MacBook Pro");
+		laptops.getMacProImage();
+		Utility.takeScreenshot("MacBook Pro UI");
+	}
+
+	@Then("User should see  {string} price tag is present on UI")
+	public void user_should_see_price_tag_is_present_on_ui(String priceTag) throws IOException {
+
+		logger.info("Validating the Price Tag");
+		laptops.getMacProPrice(priceTag);
+		Utility.takeScreenshot("Price Tag");
+
+	}
+
 }

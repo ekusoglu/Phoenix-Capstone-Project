@@ -98,6 +98,15 @@ public class ComponentsPageObject extends Base {
 	@FindBy(xpath = "//div[@class ='col-sm-3']//a[contains(text(), 'test 2')]")
 	private WebElement refinedTest2;
 	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldPrice;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldNew;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement priceTax;
+	
 	@FindBy(tagName ="h4")
 	private List<WebElement> products;
 	
@@ -143,7 +152,5 @@ public class ComponentsPageObject extends Base {
 	@FindBy(xpath= "//form[@id='form-review']/div[2]/text()")
 	private WebElement warningText;
 	
-	// aaded from eclipse
-	// i add something from git hub
-	// i add anather one
+	
 }

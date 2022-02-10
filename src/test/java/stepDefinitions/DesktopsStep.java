@@ -6,6 +6,9 @@ import java.util.Map;
 
 import javax.swing.text.Utilities;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import core.Base;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
@@ -19,6 +22,8 @@ public class DesktopsStep extends Base {
 
 	DesktopsPageObject desktop = new DesktopsPageObject();
 
+	
+	
 	@Given("^User in on Retail website$")
 	public void user_in_on_retail_website() throws IOException {
 		Utility.takeScreenshot("Test Environment Retail Page");
@@ -69,14 +74,13 @@ public class DesktopsStep extends Base {
 	}
 
 	@Then("User should see a message {string}")
-	public void user_should_see_a_message(String message) throws InterruptedException, IOException {
+	public void user_should_see_a_message(String message) throws IOException {
 		desktop.getSuccesMessage(message);
-		Thread.sleep(2000);
+	
 		Utility.takeScreenshot("Succes Message");
 		logger.info("Validating the Success Message");
 	}
 
-	// for canon
 	@When("User select color from dropdown {string}")
 	public void user_select_color_from_dropdown(String color) throws IOException {
 		desktop.getCanonSelect(color);
@@ -84,7 +88,6 @@ public class DesktopsStep extends Base {
 		logger.info("Choosing the Color");
 	}
 
-	// for canonreview
 	@And("User click on Canon EOS 5D item")
 	public void user_click_on_canon_eos_5d_item() throws IOException {
 		desktop.getCanonImage();

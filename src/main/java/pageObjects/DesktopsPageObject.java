@@ -9,12 +9,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import core.Base;
 
 public class DesktopsPageObject extends Base {
 
+	WebDriverWait wait = new WebDriverWait(driver,5);
+	
 	public DesktopsPageObject() {
 		PageFactory.initElements(driver, this);
 	}
@@ -24,7 +28,16 @@ public class DesktopsPageObject extends Base {
 
 	@FindBy(partialLinkText = "PC")
 	private WebElement desktopTabPC;
-
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldPrice;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldNew;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement priceTax;
+	
 	@FindBy(partialLinkText = "Mac")
 	private WebElement desktopTabMac;
 
@@ -163,8 +176,6 @@ public class DesktopsPageObject extends Base {
 	@FindBy(xpath = "//img[@title='Samsung SyncMaster 941BW']")
 	private WebElement samsungImage;
 
-	// Canon
-
 	@FindBy(css = "select[id ='input-option226']")
 	private WebElement canonSelect;
 
@@ -195,7 +206,7 @@ public class DesktopsPageObject extends Base {
 
 	@FindBy(xpath = "//form[@id='form-review']/div[2]/text()")
 	private WebElement warningText;
-	
+
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	private WebElement reviewText;
 
@@ -247,11 +258,12 @@ public class DesktopsPageObject extends Base {
 	}
 
 	public void getSuccesMessage(String message) {
+		wait.until(ExpectedConditions.visibilityOf(succesMessage));
 		
 		String[] string1 = succesMessage.getText().split("\n");
 
 		String string2 = string1[0].trim();
-		
+
 		Assert.assertEquals(message, string2);
 	}
 
@@ -293,7 +305,7 @@ public class DesktopsPageObject extends Base {
 
 		reviewContinue.click();
 	}
-	
+
 	public void getReviewText(String reviewMessage) {
 		String newReviewText = reviewText.getText().replace(". ", ".");
 		Assert.assertEquals(reviewMessage, newReviewText);

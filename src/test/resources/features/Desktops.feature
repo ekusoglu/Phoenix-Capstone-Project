@@ -19,7 +19,7 @@ Background:
 		And User click ADD TO CART option on "HP LP3065" item
 		And User select quantity "1"
 		And User click add to Cart button
-		Then User should see a message "Success: you have added HP LP3065 to your Shopping cart!"
+		Then User should see a message "Success: You have added HP LP3065 to your shopping cart!"
 		
  @AddCanon
 	 Scenario: User add Canon EOS 5D from Desktops tab to the cart

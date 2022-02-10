@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
 
-public class TablestPageObject extends Base{
+public class TabletsPageObject extends Base{
 	
-	public TablestPageObject() {
+	public TabletsPageObject() {
 		
 		PageFactory.initElements(driver, this);
 	}
@@ -84,6 +84,15 @@ public class TablestPageObject extends Base{
 	
 	@FindBy(xpath = "//img[@title='Samsung Galaxy Tab 10.1']")
 	private WebElement samsungImage;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldPrice;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement oldNew;
+	
+	@FindBy(xpath = "//span[@class='price-old']")
+	private WebElement priceTax;
 	
 	@FindBy(xpath = "//input[@id ='input-quantity']")
 	private WebElement SendQuantity;

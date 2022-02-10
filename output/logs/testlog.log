@@ -1,91 +1,458 @@
-2022-01-31 13:14:12,251 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
-2022-01-31 13:14:15,193 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:14:16,302 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:14:17,256 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:14:19,482 - logger_File -INFO - User clicking on MacBook
-2022-01-31 13:14:20,192 - logger_File -INFO - Adding choesn item to the cart
-2022-01-31 13:14:22,451 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:14:23,126 - logger_File -INFO - Validating the cart
-2022-01-31 13:14:23,343 - logger_File -INFO - User clicking on the cart icon
-2022-01-31 13:14:23,608 - logger_File -INFO - User clicking on red x button
-2022-01-31 13:14:26,884 - logger_File -INFO - User validating the Cart
-2022-01-31 13:14:27,393 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart PASSED
-2022-01-31 13:15:57,662 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
-2022-01-31 13:16:00,650 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:16:01,605 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:16:02,368 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:16:04,378 - logger_File -INFO - User clicking on MacBook
-2022-01-31 13:16:06,413 - logger_File -INFO - Adding choesn item to the cart
-2022-01-31 13:16:08,635 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:16:09,190 - logger_File -INFO - Validating the cart
-2022-01-31 13:16:09,416 - logger_File -INFO - User clicking on the cart icon
-2022-01-31 13:16:09,639 - logger_File -INFO - User clicking on red x button
-2022-01-31 13:16:13,148 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
-2022-01-31 13:30:07,914 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
-2022-01-31 13:30:10,664 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:30:11,201 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:30:12,084 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:30:14,128 - logger_File -INFO - User clicking on MacBook
-2022-01-31 13:30:14,778 - logger_File -INFO - Adding choesn item to the cart
-2022-01-31 13:30:16,993 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:30:17,601 - logger_File -INFO - Validating the cart
-2022-01-31 13:30:17,820 - logger_File -INFO - User clicking on the cart icon
-2022-01-31 13:30:18,039 - logger_File -INFO - User clicking on red x button
-2022-01-31 13:30:21,640 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
-2022-01-31 13:30:21,790 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:30:24,242 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:30:24,835 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:30:25,655 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:30:26,162 - logger_File -INFO - Scenario Product Comparison UNDEFINED
-2022-01-31 13:30:26,188 - logger_File -INFO - Scenario Adding an item to Wish list Started
-2022-01-31 13:30:28,497 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:30:28,971 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:30:29,682 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:30:30,084 - logger_File -INFO - Scenario Adding an item to Wish list UNDEFINED
-2022-01-31 13:30:30,099 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started
-2022-01-31 13:30:32,902 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:30:33,389 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:30:34,080 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:30:34,496 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 UNDEFINED
-2022-01-31 13:30:54,138 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
-2022-01-31 13:30:57,343 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:30:58,102 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:30:58,884 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:30:59,572 - logger_File -INFO - User clicking on MacBook
-2022-01-31 13:31:03,772 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:31:05,899 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:31:06,529 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:31:07,277 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:31:41,916 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:31:44,685 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:31:45,291 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:31:46,242 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:31:46,665 - logger_File -INFO - Scenario Product Comparison UNDEFINED
-2022-01-31 13:47:09,311 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:47:12,321 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:47:12,957 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:47:13,842 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:47:14,766 - logger_File -INFO - Scenario Product Comparison FAILED
-2022-01-31 13:52:12,757 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:52:15,860 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:52:16,434 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:52:17,319 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:52:24,123 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:52:24,777 - logger_File -INFO - Scenario Product Comparison FAILED
-2022-01-31 13:55:28,586 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:55:31,538 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:55:32,061 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:55:32,955 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:55:39,839 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:55:40,526 - logger_File -INFO - Scenario Product Comparison PASSED
-2022-01-31 13:56:13,261 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:56:15,865 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:56:16,509 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:56:17,558 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:56:18,497 - logger_File -INFO - Scenario Product Comparison FAILED
-2022-01-31 13:56:44,258 - logger_File -INFO - Scenario Product Comparison Started
-2022-01-31 13:56:47,428 - logger_File -INFO - User is on Retail Page
-2022-01-31 13:56:47,996 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
-2022-01-31 13:56:48,916 - logger_File -INFO - User clicking on Show All Laptop option
-2022-01-31 13:56:55,714 - logger_File -INFO - Validating the Success Message
-2022-01-31 13:56:56,441 - logger_File -INFO - Scenario Product Comparison PASSED
+2022-02-01 10:00:27,099 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-01 10:00:30,363 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:00:31,063 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:00:31,844 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:00:33,586 - logger_File -INFO - User clicking on MacBook
+2022-02-01 10:00:34,207 - logger_File -INFO - Adding choesn item to the cart
+2022-02-01 10:00:36,458 - logger_File -INFO - Validating the Success Message
+2022-02-01 10:00:37,323 - logger_File -INFO - Validating the cart
+2022-02-01 10:00:37,646 - logger_File -INFO - User clicking on the cart icon
+2022-02-01 10:00:37,895 - logger_File -INFO - User clicking on red x button
+2022-02-01 10:00:45,573 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-02-01 10:00:45,606 - logger_File -INFO - Scenario Product Comparison Started
+2022-02-01 10:00:47,767 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:00:48,474 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:00:49,334 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:00:49,617 - logger_File -INFO - User clicks on Camparison icon
+2022-02-01 10:00:51,905 - logger_File -INFO - User clicks on Camparison icon
+2022-02-01 10:00:56,409 - logger_File -INFO - Validating the Success Message
+2022-02-01 10:00:56,410 - logger_File -INFO - User clicks on the Comparision link
+2022-02-01 10:00:57,201 - logger_File -INFO - Validating the Comparision chart
+2022-02-01 10:00:57,627 - logger_File -INFO - Scenario Product Comparison PASSED
+2022-02-01 10:00:57,641 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2022-02-01 10:01:00,366 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:01:05,882 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:01:06,872 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:01:07,226 - logger_File -INFO - User adding desired item to WishList
+2022-02-01 10:01:07,638 - logger_File -INFO - Validating the Alert Message
+2022-02-01 10:01:08,213 - logger_File -INFO - Scenario Adding an item to Wish list PASSED
+2022-02-01 10:01:08,228 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started
+2022-02-01 10:01:10,661 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:01:11,094 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:01:11,823 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:01:12,138 - logger_File -INFO - User click on the MacBook Pro
+2022-02-01 10:01:13,977 - logger_File -INFO - Validating the Price Tag
+2022-02-01 10:01:18,512 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 PASSED
+2022-02-01 10:01:56,986 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-01 10:02:00,240 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:02:00,841 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:02:01,705 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:02:10,195 - logger_File -INFO - User clicking on MacBook
+2022-02-01 10:02:10,898 - logger_File -INFO - Adding choesn item to the cart
+2022-02-01 10:02:13,167 - logger_File -INFO - Validating the Success Message
+2022-02-01 10:02:13,956 - logger_File -INFO - Validating the cart
+2022-02-01 10:02:14,215 - logger_File -INFO - User clicking on the cart icon
+2022-02-01 10:02:14,478 - logger_File -INFO - User clicking on red x button
+2022-02-01 10:02:18,076 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-02-01 10:02:18,094 - logger_File -INFO - Scenario Product Comparison Started
+2022-02-01 10:02:20,503 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:02:21,072 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:02:21,828 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:02:22,175 - logger_File -INFO - User clicks on Camparison icon
+2022-02-01 10:02:24,494 - logger_File -INFO - User clicks on Camparison icon
+2022-02-01 10:02:29,095 - logger_File -INFO - Validating the Success Message
+2022-02-01 10:02:29,096 - logger_File -INFO - User clicks on the Comparision link
+2022-02-01 10:02:29,727 - logger_File -INFO - Validating the Comparision chart
+2022-02-01 10:02:30,243 - logger_File -INFO - Scenario Product Comparison PASSED
+2022-02-01 10:02:30,293 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2022-02-01 10:02:32,967 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:02:33,397 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:02:34,260 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:02:34,789 - logger_File -INFO - Scenario Adding an item to Wish list UNDEFINED
+2022-02-01 10:02:34,813 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started
+2022-02-01 10:02:37,728 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:02:38,167 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:02:39,153 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:02:39,400 - logger_File -INFO - User click on the MacBook Pro
+2022-02-01 10:02:41,128 - logger_File -INFO - Validating the Price Tag
+2022-02-01 10:02:41,705 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 PASSED
+2022-02-01 10:07:51,998 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2022-02-01 10:07:54,859 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:07:55,600 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-01 10:07:56,652 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-01 10:07:56,910 - logger_File -INFO - User clickd on the wishlist button on Sony VaIO
+2022-02-01 10:07:57,340 - logger_File -INFO - Validating the Alert Message
+2022-02-01 10:07:57,967 - logger_File -INFO - Scenario Adding an item to Wish list PASSED
+2022-02-01 10:15:24,063 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 10:15:27,042 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:15:27,686 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method UNDEFINED
+2022-02-01 10:18:37,488 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 10:18:40,628 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:18:41,179 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method UNDEFINED
+2022-02-01 10:18:41,200 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2022-02-01 10:18:43,461 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:18:44,062 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer UNDEFINED
+2022-02-01 10:18:44,115 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 10:18:46,420 - logger_File -INFO - User is on Retail Page
+2022-02-01 10:18:46,958 - logger_File -INFO - Scenario Edit your account Information UNDEFINED
+2022-02-01 12:29:47,296 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:29:51,238 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:29:51,790 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method UNDEFINED
+2022-02-01 12:30:50,987 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:30:54,231 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:30:54,593 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 12:30:55,123 - logger_File -INFO - User clicks on Login
+2022-02-01 12:30:55,718 - logger_File -INFO - User enters valid email and password
+2022-02-01 12:30:56,184 - logger_File -INFO - User clicks on Login button
+2022-02-01 12:30:57,013 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 12:30:57,314 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 12:31:27,546 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-01 12:43:51,168 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:43:56,169 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:43:56,545 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 12:43:57,076 - logger_File -INFO - User clicks on Login
+2022-02-01 12:43:57,519 - logger_File -INFO - User enters valid email and password
+2022-02-01 12:43:57,872 - logger_File -INFO - User clicks on Login button
+2022-02-01 12:43:58,394 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 12:43:58,596 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 12:43:59,027 - logger_File -INFO - User fills out the information
+2022-02-01 12:44:12,471 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-01 12:50:28,919 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:50:32,077 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:50:32,332 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 12:50:32,647 - logger_File -INFO - User clicks on Login
+2022-02-01 12:50:33,230 - logger_File -INFO - User enters valid email and password
+2022-02-01 12:50:33,602 - logger_File -INFO - User clicks on Login button
+2022-02-01 12:50:34,202 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 12:50:34,450 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 12:50:34,985 - logger_File -INFO - User fills out the information
+2022-02-01 12:50:35,478 - logger_File -INFO - User clicks on About check box
+2022-02-01 12:50:35,729 - logger_File -INFO - user clicks on Continue button
+2022-02-01 12:50:35,911 - logger_File -INFO - User should be see a success message
+2022-02-01 12:51:06,160 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-01 12:53:11,137 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:53:14,686 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:53:15,069 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 12:53:15,635 - logger_File -INFO - User clicks on Login
+2022-02-01 12:53:16,222 - logger_File -INFO - User enters valid email and password
+2022-02-01 12:53:16,688 - logger_File -INFO - User clicks on Login button
+2022-02-01 12:53:17,426 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 12:53:17,748 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 12:53:18,362 - logger_File -INFO - User fills out the information
+2022-02-01 12:53:19,051 - logger_File -INFO - User clicks on About check box
+2022-02-01 12:53:19,391 - logger_File -INFO - user clicks on Continue button
+2022-02-01 12:53:20,152 - logger_File -INFO - User should be see a success message
+2022-02-01 12:53:20,364 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-01 12:59:15,540 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 12:59:19,126 - logger_File -INFO - User is on Retail Page
+2022-02-01 12:59:19,498 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 12:59:19,987 - logger_File -INFO - User clicks on Login
+2022-02-01 12:59:20,442 - logger_File -INFO - User enters valid email and password
+2022-02-01 12:59:20,816 - logger_File -INFO - User clicks on Login button
+2022-02-01 12:59:21,313 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 12:59:21,531 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 13:01:07,815 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 13:01:11,506 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:01:11,934 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:01:12,426 - logger_File -INFO - User clicks on Login
+2022-02-01 13:01:12,945 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:01:13,428 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:01:14,120 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:01:14,427 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 13:01:14,961 - logger_File -INFO - User fills out the information
+2022-02-01 13:01:15,529 - logger_File -INFO - User clicks on About check box
+2022-02-01 13:01:15,831 - logger_File -INFO - user clicks on Continue button
+2022-02-01 13:01:19,612 - logger_File -INFO - User should be see a success message
+2022-02-01 13:01:20,479 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-01 13:03:19,700 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2022-02-01 13:03:23,516 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:03:23,773 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:03:24,169 - logger_File -INFO - User clicks on Login
+2022-02-01 13:03:24,749 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:03:25,163 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:03:25,898 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:03:26,149 - logger_File -INFO - User clicks on Register as an Affiliate link
+2022-02-01 13:03:26,685 - logger_File -INFO - User fills out the information
+2022-02-01 13:03:27,235 - logger_File -INFO - User clicks on About check box
+2022-02-01 13:03:27,569 - logger_File -INFO - user clicks on Continue button
+2022-02-01 13:03:31,494 - logger_File -INFO - User should be see a success message
+2022-02-01 13:03:32,299 - logger_File -INFO - Scenario Register as an Affiliate user with Cheque Payment Method PASSED
+2022-02-01 13:06:24,336 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2022-02-01 13:06:27,612 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:06:27,860 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:06:28,212 - logger_File -INFO - User clicks on Login
+2022-02-01 13:06:28,746 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:06:29,165 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:06:29,859 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:06:30,253 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer UNDEFINED
+2022-02-01 13:39:45,136 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2022-02-01 13:39:47,999 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:39:48,429 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:39:48,989 - logger_File -INFO - User clicks on Login
+2022-02-01 13:39:49,516 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:39:50,002 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:39:50,748 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:39:51,202 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer UNDEFINED
+2022-02-01 13:41:40,633 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2022-02-01 13:41:43,268 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:41:43,720 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:41:44,191 - logger_File -INFO - User clicks on Login
+2022-02-01 13:41:44,808 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:41:45,276 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:41:45,935 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:41:46,262 - logger_File -INFO - User clicks on Edit Affiliate link
+2022-02-01 13:41:46,836 - logger_File -INFO - User click on Bank Transfer button
+2022-02-01 13:41:47,168 - logger_File -INFO - user fills Bank Information
+2022-02-01 13:41:47,546 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer FAILED
+2022-02-01 13:43:46,712 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2022-02-01 13:43:49,399 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:43:49,786 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:43:50,334 - logger_File -INFO - User clicks on Login
+2022-02-01 13:43:51,113 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:43:51,539 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:43:52,267 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:43:52,583 - logger_File -INFO - User clicks on Edit Affiliate link
+2022-02-01 13:43:53,130 - logger_File -INFO - User click on Bank Transfer button
+2022-02-01 13:43:53,443 - logger_File -INFO - user fills Bank Information
+2022-02-01 13:43:54,090 - logger_File -INFO - user clicks on Continue button
+2022-02-01 13:43:57,863 - logger_File -INFO - User should be see a success message
+2022-02-01 13:43:59,252 - logger_File -INFO - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-02-01 13:55:36,695 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 13:55:39,799 - logger_File -INFO - User is on Retail Page
+2022-02-01 13:55:40,200 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 13:55:40,702 - logger_File -INFO - User clicks on Login
+2022-02-01 13:55:41,215 - logger_File -INFO - User enters valid email and password
+2022-02-01 13:55:41,692 - logger_File -INFO - User clicks on Login button
+2022-02-01 13:55:42,450 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 13:55:42,930 - logger_File -INFO - Scenario Edit your account Information UNDEFINED
+2022-02-01 14:01:57,725 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 14:02:00,660 - logger_File -INFO - User is on Retail Page
+2022-02-01 14:02:01,096 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 14:02:01,598 - logger_File -INFO - User clicks on Login
+2022-02-01 14:02:02,162 - logger_File -INFO - User enters valid email and password
+2022-02-01 14:02:02,660 - logger_File -INFO - User clicks on Login button
+2022-02-01 14:02:03,472 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 14:02:04,006 - logger_File -INFO - Scenario Edit your account Information UNDEFINED
+2022-02-01 17:14:01,801 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 17:14:04,311 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:14:04,669 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 17:14:05,155 - logger_File -INFO - User clicks on Login
+2022-02-01 17:14:05,716 - logger_File -INFO - User enters valid email and password
+2022-02-01 17:14:06,169 - logger_File -INFO - User clicks on Login button
+2022-02-01 17:14:06,873 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 17:14:07,174 - logger_File -INFO - User click on edit account link
+2022-02-01 17:14:08,095 - logger_File -INFO - User modify the account
+2022-02-01 17:14:08,708 - logger_File -INFO - user clicks on Continue button
+2022-02-01 17:16:12,855 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 17:16:15,569 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:16:15,907 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 17:16:16,425 - logger_File -INFO - User clicks on Login
+2022-02-01 17:16:17,001 - logger_File -INFO - User enters valid email and password
+2022-02-01 17:16:17,457 - logger_File -INFO - User clicks on Login button
+2022-02-01 17:16:18,280 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 17:16:18,606 - logger_File -INFO - User click on edit account link
+2022-02-01 17:16:20,189 - logger_File -INFO - User modify the account
+2022-02-01 17:16:20,959 - logger_File -INFO - user clicks on Continue button
+2022-02-01 17:16:44,641 - logger_File -INFO - Validating the Success Message
+2022-02-01 17:16:44,826 - logger_File -INFO - Scenario Edit your account Information PASSED
+2022-02-01 17:17:14,158 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 17:17:16,921 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:17:17,296 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 17:17:17,802 - logger_File -INFO - User clicks on Login
+2022-02-01 17:17:18,377 - logger_File -INFO - User enters valid email and password
+2022-02-01 17:17:18,843 - logger_File -INFO - User clicks on Login button
+2022-02-01 17:17:19,372 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 17:17:19,703 - logger_File -INFO - User click on edit account link
+2022-02-01 17:17:49,905 - logger_File -INFO - Scenario Edit your account Information FAILED
+2022-02-01 17:18:27,314 - logger_File -INFO - Scenario Edit your account Information Started
+2022-02-01 17:18:30,138 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:18:30,528 - logger_File -INFO - User clicks on MyAccount
+2022-02-01 17:18:31,029 - logger_File -INFO - User clicks on Login
+2022-02-01 17:18:31,600 - logger_File -INFO - User enters valid email and password
+2022-02-01 17:18:32,117 - logger_File -INFO - User clicks on Login button
+2022-02-01 17:18:32,805 - logger_File -INFO - User in MyAccount dashboard
+2022-02-01 17:18:33,112 - logger_File -INFO - User click on edit account link
+2022-02-01 17:18:34,403 - logger_File -INFO - User modify the account
+2022-02-01 17:18:35,207 - logger_File -INFO - user clicks on Continue button
+2022-02-01 17:18:41,045 - logger_File -INFO - Validating the Success Message
+2022-02-01 17:18:41,209 - logger_File -INFO - Scenario Edit your account Information PASSED
+2022-02-01 17:23:19,060 - logger_File -INFO - Scenario User verify currency values change Started
+2022-02-01 17:23:21,811 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:23:22,334 - logger_File -INFO - Scenario User verify currency values change UNDEFINED
+2022-02-01 17:56:47,313 - logger_File -INFO - Scenario User verify currency values change Started
+2022-02-01 17:56:49,940 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:56:50,227 - logger_File -INFO - User click on Currency
+2022-02-01 17:56:50,653 - logger_File -INFO - User clicks on Euro option
+2022-02-01 17:56:51,352 - logger_File -INFO - Validating the currency value
+2022-02-01 17:56:51,789 - logger_File -INFO - Scenario User verify currency values change PASSED
+2022-02-01 17:57:28,895 - logger_File -INFO - Scenario User empty Shopping cart message displays Started
+2022-02-01 17:57:32,026 - logger_File -INFO - User is on Retail Page
+2022-02-01 17:57:32,578 - logger_File -INFO - Scenario User empty Shopping cart message displays UNDEFINED
+2022-02-01 18:05:27,470 - logger_File -INFO - Scenario User verify currency values change Started
+2022-02-01 18:05:30,906 - logger_File -INFO - User is on Retail Page
+2022-02-01 18:05:31,256 - logger_File -INFO - User click on Currency
+2022-02-01 18:05:31,639 - logger_File -INFO - User clicks on Euro option
+2022-02-01 18:05:32,548 - logger_File -INFO - Validating the currency value
+2022-02-01 18:05:33,035 - logger_File -INFO - Scenario User verify currency values change PASSED
+2022-02-01 18:05:33,107 - logger_File -INFO - Scenario User empty Shopping cart message displays Started
+2022-02-01 18:05:35,884 - logger_File -INFO - User is on Retail Page
+2022-02-01 18:05:36,201 - logger_File -INFO - User clicks on Shopping cart
+2022-02-01 18:05:37,312 - logger_File -INFO - Scenario User empty Shopping cart message displays UNDEFINED
+2022-02-01 18:07:48,296 - logger_File -INFO - Scenario User empty Shopping cart message displays Started
+2022-02-01 18:07:51,114 - logger_File -INFO - User is on Retail Page
+2022-02-01 18:07:51,472 - logger_File -INFO - User clicks on Shopping cart
+2022-02-01 18:07:52,004 - logger_File -INFO - Validiate Shopping cart Message
+2022-02-01 18:07:57,501 - logger_File -INFO - Scenario User empty Shopping cart message displays PASSED
+2022-02-02 13:58:12,293 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2022-02-02 13:58:16,691 - logger_File -INFO - User is on Retail Home page
+2022-02-02 13:58:16,879 - logger_File -INFO - User is on Desktop tab
+2022-02-02 13:58:17,918 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-02 13:58:18,384 - logger_File -INFO - All items are presented on the Page
+2022-02-02 13:58:18,656 - logger_File -INFO - Scenario User verify all items are present in Desktops tab PASSED
+2022-02-02 13:58:18,692 - logger_File -INFO - Scenario User add HP LP3065 from Desktops tab to the cart Started
+2022-02-02 13:58:21,559 - logger_File -INFO - User is on Retail Home page
+2022-02-02 13:58:21,695 - logger_File -INFO - User is on Desktop tab
+2022-02-02 13:58:22,682 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-02 13:58:24,841 - logger_File -INFO - Adding desired item in the cart
+2022-02-02 13:58:25,210 - logger_File -INFO - Adding desired quantity
+2022-02-02 13:58:25,533 - logger_File -INFO - Adding choesn item to the cart
+2022-02-02 13:58:25,864 - logger_File -INFO - Scenario User add HP LP3065 from Desktops tab to the cart FAILED
+2022-02-02 13:58:25,917 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2022-02-02 13:58:28,451 - logger_File -INFO - User is on Retail Home page
+2022-02-02 13:58:28,586 - logger_File -INFO - User is on Desktop tab
+2022-02-02 13:58:29,446 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-02 13:58:31,464 - logger_File -INFO - Adding desired item in the cart
+2022-02-02 13:58:31,873 - logger_File -INFO - Choosing the Color
+2022-02-02 13:58:32,167 - logger_File -INFO - Adding desired quantity
+2022-02-02 13:58:32,471 - logger_File -INFO - Adding choesn item to the cart
+2022-02-02 13:58:32,825 - logger_File -INFO - Validating the Success Message
+2022-02-02 13:58:37,049 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart PASSED
+2022-02-02 13:58:37,079 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab Started
+2022-02-02 13:58:39,982 - logger_File -INFO - User is on Retail Home page
+2022-02-02 13:58:40,124 - logger_File -INFO - User is on Desktop tab
+2022-02-02 13:58:41,161 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-02 13:58:43,336 - logger_File -INFO - Canon EOS 5D has added to cart
+2022-02-02 13:58:43,795 - logger_File -INFO - User clicked on the review link
+2022-02-02 13:58:44,523 - logger_File -INFO - User succesfully filled out the Review section
+2022-02-02 13:58:44,774 - logger_File -INFO - User clicked on the Continue button
+2022-02-02 13:58:44,978 - logger_File -INFO - Validating to the Review Message
+2022-02-02 13:58:45,193 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-02-02 15:02:03,510 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-02 15:02:08,876 - logger_File -INFO - User is on Retail Page
+2022-02-02 15:02:09,613 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-02 15:02:10,641 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-02 15:02:13,226 - logger_File -INFO - User clicking on MacBook
+2022-02-02 15:02:13,931 - logger_File -INFO - Adding choesn item to the cart
+2022-02-02 15:02:14,300 - logger_File -INFO - Validating the Success Message
+2022-02-02 15:02:15,592 - logger_File -INFO - Validating the cart
+2022-02-02 15:02:15,874 - logger_File -INFO - User clicking on the cart icon
+2022-02-02 15:02:16,163 - logger_File -INFO - User clicking on red x button
+2022-02-02 15:02:20,943 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-02-02 15:08:29,661 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-02 15:08:32,948 - logger_File -INFO - User is on Retail Page
+2022-02-02 15:08:33,642 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-02 15:08:34,562 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-02 15:08:36,821 - logger_File -INFO - User clicking on MacBook
+2022-02-02 15:08:37,492 - logger_File -INFO - Adding choesn item to the cart
+2022-02-02 15:08:37,905 - logger_File -INFO - Validating the Success Message
+2022-02-02 15:08:37,953 - logger_File -INFO - Validating the cart
+2022-02-02 15:08:38,275 - logger_File -INFO - User clicking on the cart icon
+2022-02-02 15:08:38,572 - logger_File -INFO - User clicking on red x button
+2022-02-02 15:08:43,339 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-02-02 15:18:13,633 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-02 15:18:17,161 - logger_File -INFO - User is on Retail Page
+2022-02-02 15:18:17,953 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-02 15:18:18,879 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-02 15:18:20,709 - logger_File -INFO - User clicking on MacBook
+2022-02-02 15:18:21,429 - logger_File -INFO - Adding choesn item to the cart
+2022-02-02 15:18:21,822 - logger_File -INFO - Validating the Success Message
+2022-02-02 15:18:22,135 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-02-03 11:09:43,372 - logger_File -INFO - Scenario Product Comparison Started
+2022-02-03 11:09:46,553 - logger_File -INFO - User is on Retail Page
+2022-02-03 11:09:46,986 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-03 11:09:47,793 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-03 11:09:47,979 - logger_File -INFO - User clicks on Camparison icon
+2022-02-03 11:09:48,383 - logger_File -INFO - User clicks on Camparison icon
+2022-02-03 11:10:54,388 - logger_File -INFO - Scenario Product Comparison FAILED
+2022-02-03 11:11:59,238 - logger_File -INFO - Scenario Product Comparison Started
+2022-02-03 11:12:02,140 - logger_File -INFO - User is on Retail Page
+2022-02-03 11:12:02,559 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-03 11:12:03,264 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-03 11:12:03,508 - logger_File -INFO - User clicks on Camparison icon
+2022-02-03 11:12:03,890 - logger_File -INFO - User clicks on Camparison icon
+2022-02-03 11:12:04,465 - logger_File -INFO - Validating the Success Message
+2022-02-03 11:12:04,467 - logger_File -INFO - User clicks on the Comparision link
+2022-02-03 11:12:04,988 - logger_File -INFO - Validating the Comparision chart
+2022-02-03 11:12:05,389 - logger_File -INFO - Scenario Product Comparison PASSED
+2022-02-07 19:27:45,332 - logger_File -INFO - Scenario User verify all items are present in Desktops tab Started
+2022-02-07 19:27:52,020 - logger_File -INFO - User is on Retail Home page
+2022-02-07 19:27:52,241 - logger_File -INFO - User is on Desktop tab
+2022-02-07 19:27:53,467 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-07 19:27:54,224 - logger_File -INFO - All items are presented on the Page
+2022-02-07 19:27:54,542 - logger_File -INFO - Scenario User verify all items are present in Desktops tab PASSED
+2022-02-07 19:27:54,726 - logger_File -INFO - Scenario User add HP LP3065 from Desktops tab to the cart Started
+2022-02-07 19:27:58,385 - logger_File -INFO - User is on Retail Home page
+2022-02-07 19:27:58,536 - logger_File -INFO - User is on Desktop tab
+2022-02-07 19:27:59,625 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-07 19:28:02,294 - logger_File -INFO - Adding desired item in the cart
+2022-02-07 19:28:02,744 - logger_File -INFO - Adding desired quantity
+2022-02-07 19:28:03,291 - logger_File -INFO - Adding choesn item to the cart
+2022-02-07 19:28:03,854 - logger_File -INFO - Validating the Success Message
+2022-02-07 19:28:04,253 - logger_File -INFO - Scenario User add HP LP3065 from Desktops tab to the cart PASSED
+2022-02-07 19:28:04,335 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2022-02-07 19:28:08,183 - logger_File -INFO - User is on Retail Home page
+2022-02-07 19:28:08,333 - logger_File -INFO - User is on Desktop tab
+2022-02-07 19:28:09,417 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-07 19:28:12,340 - logger_File -INFO - Adding desired item in the cart
+2022-02-07 19:28:13,072 - logger_File -INFO - Choosing the Color
+2022-02-07 19:28:13,497 - logger_File -INFO - Adding desired quantity
+2022-02-07 19:28:13,855 - logger_File -INFO - Adding choesn item to the cart
+2022-02-07 19:28:14,489 - logger_File -INFO - Validating the Success Message
+2022-02-07 19:28:14,984 - logger_File -INFO - Scenario User add Canon EOS 5D from Desktops tab to the cart PASSED
+2022-02-07 19:28:15,040 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab Started
+2022-02-07 19:28:18,813 - logger_File -INFO - User is on Retail Home page
+2022-02-07 19:28:18,968 - logger_File -INFO - User is on Desktop tab
+2022-02-07 19:28:20,001 - logger_File -INFO - user is clicked on Show All Desktops
+2022-02-07 19:28:22,568 - logger_File -INFO - Canon EOS 5D has added to cart
+2022-02-07 19:28:23,343 - logger_File -INFO - User clicked on the review link
+2022-02-07 19:28:24,280 - logger_File -INFO - User succesfully filled out the Review section
+2022-02-07 19:28:24,693 - logger_File -INFO - User clicked on the Continue button
+2022-02-07 19:28:24,991 - logger_File -INFO - Validating to the Review Message
+2022-02-07 19:28:25,600 - logger_File -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-02-07 19:29:43,737 - logger_File -INFO - Scenario User verify currency values change Started
+2022-02-07 19:29:48,323 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:29:49,550 - logger_File -INFO - User click on Currency
+2022-02-07 19:29:50,477 - logger_File -INFO - User clicks on Euro option
+2022-02-07 19:29:51,667 - logger_File -INFO - Validating the currency value
+2022-02-07 19:29:52,605 - logger_File -INFO - Scenario User verify currency values change PASSED
+2022-02-07 19:29:52,776 - logger_File -INFO - Scenario User empty Shopping cart message displays Started
+2022-02-07 19:29:55,816 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:29:57,087 - logger_File -INFO - User clicks on Shopping cart
+2022-02-07 19:29:57,759 - logger_File -INFO - Validiate Shopping cart Message
+2022-02-07 19:29:58,493 - logger_File -INFO - Scenario User empty Shopping cart message displays PASSED
+2022-02-07 19:31:52,427 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-02-07 19:31:57,034 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:31:58,088 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-07 19:31:59,344 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-07 19:32:02,019 - logger_File -INFO - User clicking on MacBook
+2022-02-07 19:32:03,042 - logger_File -INFO - Adding choesn item to the cart
+2022-02-07 19:32:03,608 - logger_File -INFO - Validating the Success Message
+2022-02-07 19:32:03,700 - logger_File -INFO - Validating the cart
+2022-02-07 19:32:04,212 - logger_File -INFO - User clicking on the cart icon
+2022-02-07 19:32:04,658 - logger_File -INFO - User clicking on red x button
+2022-02-07 19:32:05,425 - logger_File -INFO - User validating the Cart
+2022-02-07 19:32:06,139 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart PASSED
+2022-02-07 19:32:06,214 - logger_File -INFO - Scenario Product Comparison Started
+2022-02-07 19:32:08,960 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:32:09,865 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-07 19:32:11,196 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-07 19:32:12,038 - logger_File -INFO - User clicks on Camparison icon
+2022-02-07 19:32:13,017 - logger_File -INFO - User clicks on Camparison icon
+2022-02-07 19:32:14,368 - logger_File -INFO - Validating the Success Message
+2022-02-07 19:32:14,370 - logger_File -INFO - User clicks on the Comparision link
+2022-02-07 19:32:15,088 - logger_File -INFO - Validating the Comparision chart
+2022-02-07 19:32:16,273 - logger_File -INFO - Scenario Product Comparison PASSED
+2022-02-07 19:32:16,318 - logger_File -INFO - Scenario Adding an item to Wish list Started
+2022-02-07 19:32:19,325 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:32:20,342 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-07 19:32:21,807 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-07 19:32:22,713 - logger_File -INFO - User clickd on the wishlist button on Sony VaIO
+2022-02-07 19:32:23,348 - logger_File -INFO - Validating the Alert Message
+2022-02-07 19:32:24,345 - logger_File -INFO - Scenario Adding an item to Wish list PASSED
+2022-02-07 19:32:24,413 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 Started
+2022-02-07 19:32:27,637 - logger_File -INFO - User is on Retail Page
+2022-02-07 19:32:28,825 - logger_File -INFO - user is clicking on Laptop&NoteBook tab
+2022-02-07 19:32:29,924 - logger_File -INFO - User clicking on Show All Laptop option
+2022-02-07 19:32:30,553 - logger_File -INFO - User click on the MacBook Pro
+2022-02-07 19:32:32,383 - logger_File -INFO - Validating the Price Tag
+2022-02-07 19:32:34,457 - logger_File -INFO - Scenario Validate the price of MacBook Pro is 2000 PASSED
