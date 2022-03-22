@@ -1,0 +1,12 @@
+2022-03-12 18:10:25,744 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart Started
+2022-03-12 18:10:28,879 - logger_File -INFO - User is on Retail Home page
+2022-03-12 18:10:29,036 - logger_File -INFO - User is on Desktop tab
+2022-03-12 18:10:29,747 - logger_File -INFO - user is clicked on Show All Desktops
+2022-03-12 18:10:31,381 - logger_File -INFO - User clicking on MacBook
+2022-03-12 18:10:31,810 - logger_File -INFO - Adding choesn item to the cart
+2022-03-12 18:10:32,057 - logger_File -INFO - Validating the Success Message
+2022-03-12 18:10:32,093 - logger_File -INFO - Validating the cart
+2022-03-12 18:10:32,321 - logger_File -INFO - User clicking on the cart icon
+2022-03-12 18:10:32,525 - logger_File -INFO - User clicking on red x button
+2022-03-12 18:10:32,912 - logger_File -INFO - User validating the Cart
+2022-03-12 18:10:37,321 - logger_File -INFO - Scenario Add and Remove a Mac book from Cart PASSED
